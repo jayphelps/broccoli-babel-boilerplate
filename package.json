@@ -1,0 +1,34 @@
+{
+  "name": "broccoli-babel-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/broccoli-babel-boilerplate.js",
+  "scripts": {
+    "start": "broccoli serve",
+    "build": "rm -rf dist && broccoli build dist",
+    "test": "mocha",
+    "prepublish": "npm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayphelps/broccoli-babel-boilerplate.git"
+  },
+  "author": "Jay Phelps <hello@jayphelps.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayphelps/broccoli-babel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jayphelps/broccoli-babel-boilerplate",
+  "devDependencies": {
+    "babel": "^5.0.0",
+    "broccoli": "^0.16.2",
+    "broccoli-babel-transpiler": "^5.0.0",
+    "broccoli-concat": "^0.0.13",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1",
+    "chai": "^2.2.0",
+    "glob": "^5.0.3",
+    "mocha": "^2.2.4",
+    "mocha-jshint": "^1.0.0"
+  }
+}
