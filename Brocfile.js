@@ -17,6 +17,7 @@ const js = esTranspiler(src, {
 
   // Transforms /index.js files to use their containing directory name
   getModuleId: function (name) { 
+    name = pkg.name + '/' + name;
     return name.replace(/\/index$/, '');
   },
 
