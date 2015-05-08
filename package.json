@@ -1,13 +1,13 @@
 {
   "name": "broccoli-babel-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/broccoli-babel-boilerplate.js",
   "scripts": {
     "start": "broccoli serve",
     "build": "rm -rf dist && broccoli build dist",
     "test": "mocha",
-    "prepublish": "npm build"
+    "prepublish": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
