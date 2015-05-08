@@ -1,6 +1,6 @@
 # broccoli-babel-boilerplate
 
-A boilerplate, using Broccoli, to author JavaScript libraries in ES6/ES7++
+A boilerplate, using Broccoli, to author JavaScript libraries in ES6/ES7++ but transpile and distribute using Babel.js
 
 * The root module name is taken from the `package.json` name property (so you'll want to change that first!)
 * Put your source files in `src/`, your tests in `test/unit/`
