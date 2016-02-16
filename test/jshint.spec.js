@@ -1,5 +1,7 @@
 import lint from 'mocha-jshint';
 
-lint([
-  './src'
-]);
+lint({
+  paths: [
+    './src'
+  ]
+});

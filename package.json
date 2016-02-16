@@ -19,15 +19,17 @@
   },
   "homepage": "https://github.com/jayphelps/broccoli-babel-boilerplate",
   "devDependencies": {
-    "babel": "^5.0.0",
-    "broccoli": "^0.16.2",
-    "broccoli-babel-transpiler": "^5.0.0",
-    "broccoli-concat": "^0.0.13",
-    "broccoli-funnel": "^0.2.3",
-    "broccoli-merge-trees": "^0.2.1",
-    "chai": "^2.2.0",
-    "glob": "^5.0.3",
-    "mocha": "^2.2.4",
-    "mocha-jshint": "^1.0.0"
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "broccoli": "^0.16.9",
+    "broccoli-babel-transpiler": "^5.5.0",
+    "broccoli-concat": "^2.1.0",
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^01.1.1",
+    "chai": "^3.5.0",
+    "glob": "^7.0.0",
+    "mocha": "^2.4.5",
+    "mocha-jshint": "^2.3.1"
   }
 }
