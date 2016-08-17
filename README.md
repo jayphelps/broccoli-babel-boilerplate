@@ -1,3 +1,5 @@
+# [NO LONGER MAINTAINED] Use at your own risk or for reference.
+
 # broccoli-babel-boilerplate
 
 A boilerplate, using Broccoli, to author JavaScript libraries in ES6/ES7++ but transpile and distribute using Babel.js
